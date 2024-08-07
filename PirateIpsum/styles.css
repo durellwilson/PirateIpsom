@@ -1,0 +1,38 @@
+body {
+    font-family: "Nanum Brush Script", cursive;
+    color: black;
+    background-color: #ccc;
+}
+h1 {
+    font-family: "Seaweed Script", cursive;
+}
+.container {
+    max-width: 800px;
+    padding: 30px;
+    background-color: white;
+    margin: auto;
+}
+.pic {
+    margin: 1em 2em 2em 2em;
+    padding: 10px;
+    border: #ddd 1px solid;
+    box-shadow:  0.3rem 0.3rem #999;
+    height: 230px;  
+}
+img {
+    height: 200px;
+}
+#shipbox {
+    float: right;
+    transform: rotate(5deg);
+    margin-bottom: 1em;
+}
+#treasurebox {
+    float: left;
+    transform: rotate(-5deg);
+}
+.caption {
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+}
